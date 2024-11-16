@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CarPark
+comment0.text=\r\n\ Manages\ the\ car\ park,\ which\ includes\ staff\ and\ visitor\ parking\ slots.\r\n\ Provides\ functionality\ to\ add,\ remove,\ and\ list\ slots,\ park\ and\ remove\ cars,\r\n\ and\ find\ cars\ by\ their\ registration\ number.\ Parking\ fees\ are\ charged\ at\ $5\r\n\ per\ hour\ for\ both\ staff\ and\ visitors.\r\n\ \r\n\ @author\ Harrison\ Stefanidis,\ 105260443\r\n\ @version\ 2.2,\ 4/09/2024\r\n
+comment1.params=staffSlots\ visitorSlots
+comment1.target=CarPark(int,\ int)
+comment1.text=\r\n\ Constructs\ a\ CarPark\ with\ the\ specified\ number\ of\ staff\ and\ visitor\ slots.\r\n\r\n\ @param\ staffSlots\ \ \ the\ number\ of\ staff\ slots\r\n\ @param\ visitorSlots\ the\ number\ of\ visitor\ slots\r\n
+comment2.params=slot
+comment2.target=void\ addSlot(ParkingSlot)
+comment2.text=\r\n\ Adds\ a\ parking\ slot\ to\ the\ car\ park.\r\n\ \r\n\ @param\ slot\ the\ parking\ slot\ to\ add\r\n
+comment3.params=slotID
+comment3.target=boolean\ deleteSlot(java.lang.String)
+comment3.text=\r\n\ Deletes\ a\ parking\ slot\ if\ it\ exists\ and\ is\ not\ occupied.\r\n\ \r\n\ @param\ slotID\ the\ ID\ of\ the\ parking\ slot\ to\ delete\r\n\ @return\ true\ if\ the\ slot\ was\ successfully\ deleted,\ false\ otherwise\r\n
+comment4.params=
+comment4.target=java.util.List\ listSlots()
+comment4.text=\r\n\ Lists\ all\ parking\ slots\ in\ the\ car\ park.\r\n\ \r\n\ @return\ a\ list\ of\ parking\ slots\r\n
+comment5.params=
+comment5.target=void\ deleteAllUnoccupiedSlots()
+comment5.text=\r\n\ Deletes\ all\ unoccupied\ parking\ slots\ from\ the\ car\ park.\r\n
+comment6.params=slotID
+comment6.target=ParkingSlot\ findSlotById(java.lang.String)
+comment6.text=\r\n\ Finds\ a\ parking\ slot\ by\ its\ ID.\r\n\ \r\n\ @param\ slotID\ the\ ID\ of\ the\ parking\ slot\ to\ find\r\n\ @return\ the\ parking\ slot\ with\ the\ specified\ ID,\ or\ null\ if\ not\ found\r\n
+comment7.params=registrationNumber
+comment7.target=ParkingSlot\ findSlotByCar(java.lang.String)
+comment7.text=\r\n\ Finds\ the\ parking\ slot\ of\ a\ car\ by\ its\ registration\ number.\r\n\ \r\n\ @param\ registrationNumber\ the\ registration\ number\ of\ the\ car\ to\ find\r\n\ @return\ the\ parking\ slot\ containing\ the\ car,\ or\ null\ if\ the\ car\ is\ not\ found\r\n
+numComments=8

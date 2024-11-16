@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ParkingSlot
+comment0.text=\r\n\ Represents\ a\ parking\ slot\ in\ the\ car\ park.\r\n
+comment1.params=id\ type
+comment1.target=ParkingSlot(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ ParkingSlot\ with\ the\ specified\ ID\ and\ type.\r\n\r\n\ @param\ id\ \ \ the\ slot\ ID\ (e.g.,\ "S01")\r\n\ @param\ type\ the\ slot\ type\ ("staff"\ or\ "visitor")\r\n
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment2.text=\r\n\ Returns\ the\ ID\ of\ the\ parking\ slot.\r\n\ \r\n\ @return\ the\ ID\ of\ the\ parking\ slot.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment3.text=\r\n\ Returns\ the\ type\ of\ the\ parking\ slot.\r\n\ \r\n\ @return\ the\ type\ of\ the\ parking\ slot\ ("staff"\ or\ "visitor").\r\n
+comment4.params=
+comment4.target=boolean\ isOccupied()
+comment4.text=\r\n\ Checks\ if\ the\ parking\ slot\ is\ currently\ occupied.\r\n\ \r\n\ @return\ true\ if\ the\ parking\ slot\ is\ occupied,\ false\ otherwise.\r\n
+comment5.params=
+comment5.target=Car\ getParkedCar()
+comment5.text=\r\n\ Returns\ the\ car\ currently\ parked\ in\ the\ slot.\r\n\ \r\n\ @return\ the\ car\ currently\ parked\ in\ the\ slot,\ or\ null\ if\ the\ slot\ is\r\n\ \ \ \ \ \ \ \ \ unoccupied.\r\n
+comment6.params=car
+comment6.target=boolean\ parkCar(Car)
+comment6.text=\r\n\ Parks\ a\ car\ in\ the\ slot\ if\ the\ slot\ is\ of\ the\ correct\ type\ and\ is\ unoccupied.\r\n\ \r\n\ @param\ car\ the\ car\ to\ park\ in\ the\ slot\r\n\ @return\ true\ if\ the\ car\ was\ successfully\ parked,\ false\ otherwise\r\n
+comment7.params=
+comment7.target=void\ removeCar()
+comment7.text=\r\n\ Removes\ the\ car\ from\ the\ slot.\r\n
+numComments=8
